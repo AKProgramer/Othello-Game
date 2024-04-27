@@ -177,8 +177,7 @@ public class FakeTextView implements IView
 	@Override
 	public void refreshView()
 	{
-		int width = model.getBoardWidth();
-		int height = model.getBoardHeight();
+		
 
 		StringBuilder p1 = new StringBuilder();
 		p1.append("Player 1 view:\r\n" );

@@ -1,12 +1,12 @@
 package reversi;
 
-import java.awt.BorderLayout;
+
 import java.awt.GridLayout;
 import java.util.Random;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JPanel;
+
 
 /**
  * Same as the SimpleModel but adds a simple GUI with some buttons to test features

@@ -203,9 +203,6 @@ public class TestYourController extends SimpleModel implements IView
 	@Override
 	public void refreshView()
 	{
-		int width = model.getBoardWidth();
-		int height = model.getBoardHeight();
-
 		StringBuilder p1 = new StringBuilder();
 		p1.append("Player 1 view:\r\n");
 		String[] output = buildStrings();
@@ -537,7 +534,7 @@ public class TestYourController extends SimpleModel implements IView
 				setFinished(false);
 			}
 			view.refreshView();
-			controller.update();
+			controller.update();	
 			// Now check that the initial board state is correct
 			System.out.println("Testing board state before move...");
 			verifyBoardState("........|........|........|...12...|...21...|........|........|........");

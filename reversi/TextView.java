@@ -169,8 +169,6 @@ public class TextView implements IView
 	@Override
 	public void refreshView()
 	{
-		int width = model.getBoardWidth();
-		int height = model.getBoardHeight();
 
 		System.out.println("Player 1 view:" );
 		String[] output = buildStrings();
